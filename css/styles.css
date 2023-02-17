@@ -66,13 +66,7 @@ body {
 /* ================== HEADER / =================== */
 
 /* ================== MAIN =================== */
-.section-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.2;
-  text-align: center;
-  color: #ffffff;
-}
+
 
 .images-title {
   font-weight: 500;
@@ -81,18 +75,18 @@ body {
 }
 
 /* HERO SECTION 1 */
-.hero {
+.hero-section {
   background-color: #2e2f42;
 }
-.hero-title {
-  font-weight: 700;
+.section-title {
   font-size: 56px;
-  line-height: 1.2;
-  text-align: center;
+  line-height: 1.07;
   color: #ffffff;
 }
 .button {
   font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -120,6 +114,7 @@ body {
 
 .fourth-section-description {
   color: #434455;
+  background-color: #f4f4fd;
 }
 
 /* ================== MAIN / =================== */
@@ -130,22 +125,12 @@ body {
   color: #434455;
 }
 .menu-portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.04em;
   color: #4d5ae5;
-  cursor: pointer;
-  box-sizing: border-box;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
-
   background: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-  flex: none;
-  flex-grow: 0;
-  height: 48px;
+  cursor: pointer;
 }
 
 .all-btn {
