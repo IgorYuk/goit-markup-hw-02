@@ -1,5 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   background-color: #ffffff;
 }
@@ -27,20 +30,16 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .menu-link {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .mail-link,
 .phone-number-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -69,18 +68,16 @@ body {
 /* ================== MAIN =================== */
 .section-title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
+  font-size: 56px;
+  line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
+  color: #ffffff;
 }
 
 .images-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 
 /* HERO SECTION 1 */
@@ -92,19 +89,18 @@ body {
   font-size: 56px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.02em;
   color: #ffffff;
 }
 .button {
+  font-family: inherit;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
 
   color: #ffffff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 /* SECOND SECTION */
@@ -113,12 +109,8 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 .second-section-description {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -127,9 +119,6 @@ body {
 /* FOURTH SECTION */
 
 .fourth-section-description {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -138,15 +127,47 @@ body {
 /* ================== PORTFOLIO  =================== */
 
 .portfolio-project-descr {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 .menu-portfolio-btn {
   color: #4d5ae5;
-  background-color: #f4f4fd;
   cursor: pointer;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  flex: none;
+  flex-grow: 0;
+  height: 48px;
+}
+
+.all-btn {
+  width: 69px;
+  order: 0;
+}
+.website-btn {
+  width: 116px;
+  order: 1;
+}
+.app-btn {
+  width: 78px;
+  order: 2;
+}
+
+.designer-btn {
+  width: 101px;
+  order: 3;
+}
+.marketing-btn {
+  width: 126px;
+  order: 4;
 }
 
 .menu-portfolio-btn:hover,
@@ -175,9 +196,6 @@ body {
 }
 
 .footer-description {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #e7e9fc;
 }
 
