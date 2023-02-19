@@ -1,3 +1,11 @@
+:root {
+  --main-title-color: #2e2f42;
+  --second-title-color: #fff;
+  --main-background-color: #f4f4fd;
+  --description-color: #434455;
+  --accent-color: #404bbf;
+  --contacts-link-color: #434455;
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -25,7 +33,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -35,12 +42,12 @@ body {
 
 .menu-link {
   font-weight: 500;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 
 .mail-link,
 .phone-number-link {
-  color: #434455;
+  color: var(--contacts-link-color);
 }
 
 .adress {
@@ -49,16 +56,16 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 .mail-link:hover,
 .mail-link:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 
 .phone-number-link:hover,
 .phone-number-link:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 
 .header-nav .link.current
@@ -68,20 +75,21 @@ body {
 /* ================== MAIN =================== */
 
 
+/* HERO SECTION 1 */
+
 .images-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 
-/* HERO SECTION 1 */
 .hero-section {
   background-color: #2e2f42;
 }
-.section-title {
+.hero-section-title {
   font-size: 56px;
   line-height: 1.07;
-  color: #ffffff;
+  color: var(--second-title-color);
 }
 .button {
   font-family: inherit;
@@ -92,29 +100,33 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
 
-  color: #ffffff;
+  color: var(--second-title-color);
   background-color: #4d5ae5;
   cursor: pointer;
 }
 
 /* SECOND SECTION */
 
-.second-section-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-}
 .second-section-description {
-  color: #434455;
+  color: var(--description-color);
 }
 
 /* THIRD SECTION */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-title-color);
+}
 
 /* FOURTH SECTION */
 
 .fourth-section-description {
-  color: #434455;
-  background-color: #f4f4fd;
+  color: var(--description-color);
+}
+.fourth-section {
+  background-color: var(--main-background-color);
 }
 
 /* ================== MAIN / =================== */
@@ -122,50 +134,36 @@ body {
 /* ================== PORTFOLIO  =================== */
 
 .portfolio-project-descr {
-  color: #434455;
+  color: var(--description-color);
 }
 .menu-portfolio-btn {
   font-family: inherit;
+  font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
-  background: #f4f4fd;
+  background-color: var(--main-background-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
   cursor: pointer;
-}
-
-.all-btn {
-  width: 69px;
-  order: 0;
-}
-.website-btn {
-  width: 116px;
-  order: 1;
-}
-.app-btn {
-  width: 78px;
-  order: 2;
-}
-
-.designer-btn {
-  width: 101px;
-  order: 3;
-}
-.marketing-btn {
-  width: 126px;
-  order: 4;
 }
 
 .menu-portfolio-btn:hover,
 .menu-portfolio-btn:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--second-title-color);
+  background-color: var(--accent-color);
+}
+.menu-portfolio-btn:hover,
+.menu-portfolio-btn:focus {
+  border-color: var(--accent-color);
 }
 
 /* ================== PORTFOLIO / =================== */
 
 /* ================== FOOTER =================== */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--main-title-color);
 }
 
 .footer-logo-link {
